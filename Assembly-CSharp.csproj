@@ -78,12 +78,10 @@
   <ItemGroup>
     <None Include="Assets\Shaders\CustomStylizedLit\CustomStylizedLitForwardPass.hlsl" />
     <None Include="Assets\Shaders\CustomStylizedLit\CustomStylizedLitInput.hlsl" />
-    <None Include="Assets\README_UnityChan_en.txt" />
     <None Include="Assets\Shaders\Blur.shader" />
     <None Include="Assets\DownloadedAssets\UnityTechnologies\license.txt" />
     <None Include="Assets\Shaders\CustomStylizedLit\CustomStylizedLit.shader" />
     <None Include="Assets\Shaders\CustomStylizedLit\Library\CustomStylizedLighting.hlsl" />
-    <None Include="Assets\README_UnityChan_jp.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
