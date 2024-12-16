@@ -32,13 +32,13 @@ namespace Rendering.RendererFeatures
         {
             UniversalResourceData resourceData = frameData.Get<UniversalResourceData>();
 
+            if (resourceData.isActiveTargetBackBuffer)
+                return;
+
             TextureHandle srcCamColor = resourceData.activeColorTexture;
             TextureHandle dst = UniversalRenderer.CreateRenderGraphTexture(renderGraph, _blurTextureDescriptor, k_BlurTextureName, false);
 
             UniversalCameraData cameraData = frameData.Get<UniversalCameraData>();
-
-            if (resourceData.isActiveTargetBackBuffer)
-                return;
 
             _blurTextureDescriptor.width = cameraData.cameraTargetDescriptor.width;
             _blurTextureDescriptor.height = cameraData.cameraTargetDescriptor.height;

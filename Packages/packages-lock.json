@@ -1,5 +1,23 @@
 {
   "dependencies": {
+    "com.jiaozi158.unityssgiurp": {
+      "version": "https://github.com/jiaozi158/UnitySSGIURP.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.render-pipelines.universal": "14.0.11"
+      },
+      "hash": "47cfd18982c83243fdca5b8fc8ddc30589e69ba2"
+    },
+    "com.looooong.srp.vxgi": {
+      "version": "https://github.com/Looooong/Unity-SRP-VXGI.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.postprocessing": "2.1.7"
+      },
+      "hash": "ef2e1838b13b663f68c3e5e32c6ed3f3cc56138c"
+    },
     "com.madsbangh.easybuttons": {
       "version": "https://github.com/madsbangh/EasyButtons.git#upm",
       "depth": 0,
@@ -8,7 +26,7 @@
       "hash": "73d2383899210da808a1b27329cdaa8000de557b"
     },
     "com.unity.ai.navigation": {
-      "version": "2.0.4",
+      "version": "2.0.5",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -27,7 +45,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.cinemachine": {
-      "version": "2.10.1",
+      "version": "2.10.3",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -80,7 +98,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.inputsystem": {
-      "version": "1.11.1",
+      "version": "1.11.2",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -108,6 +126,15 @@
       "depth": 0,
       "source": "registry",
       "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.postprocessing": {
+      "version": "3.4.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.physics": "1.0.0"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.core": {
@@ -212,7 +239,7 @@
       }
     },
     "com.unity.visualscripting": {
-      "version": "1.9.4",
+      "version": "1.9.5",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -220,6 +247,13 @@
         "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
+    },
+    "com.yasirkula.screenshotcapture": {
+      "version": "https://github.com/yasirkula/Unity360ScreenshotCapture.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "9249dce74a049266a8ca981e9498d06bd8443743"
     },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
