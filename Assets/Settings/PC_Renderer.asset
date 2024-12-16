@@ -40,7 +40,8 @@ MonoBehaviour:
   m_RendererFeatures:
   - {fileID: 7833122117494664109}
   - {fileID: 7900265613496543266}
-  m_RendererFeatureMap: ad6b866f10d7b46c22e8b1d3b761a36d
+  - {fileID: 4246869170118954124}
+  m_RendererFeatureMap: ad6b866f10d7b46c22e8b1d3b761a36d8c8c7f6402e9ef3a
   m_UseNativeRenderPass: 1
   xrSystemData: {fileID: 0}
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
@@ -66,6 +67,22 @@ MonoBehaviour:
   m_DepthTextureFormat: 0
   m_AccurateGbufferNormals: 0
   m_IntermediateTextureMode: 0
+--- !u!114 &4246869170118954124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4e3cc08b50ae4e43b14ff3e14159e3e, type: 3}
+  m_Name: BakeGBufferRendererFeature
+  m_EditorClassIdentifier: 
+  m_Active: 0
+  shader: {fileID: 4800000, guid: 12e31e0a73275c347aa4f5ffaad01a21, type: 3}
+  albedoTexture: {fileID: 8400000, guid: 819625076e3938e408b85fc8e18fc7a9, type: 2}
+  normalTexture: {fileID: 8400000, guid: 0deee42b60247634a9f3764b44a6b7fd, type: 2}
 --- !u!114 &7833122117494664109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -113,7 +130,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b00045f12942b46c698459096c89274e, type: 3}
   m_Name: FullScreenPassRendererFeature
   m_EditorClassIdentifier: 
-  m_Active: 1
+  m_Active: 0
   injectionPoint: 600
   fetchColorBuffer: 1
   requirements: 6
